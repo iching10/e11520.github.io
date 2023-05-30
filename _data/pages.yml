@@ -1,0 +1,5 @@
+pages:
+  - {name: '主页', url: '/'}
+  - {name: '关于', url: 'about.html'}
+  - {name: '分类', url: 'categories'}
+  - {name: '归档', url: 'archive.html'}
