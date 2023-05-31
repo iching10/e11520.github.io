@@ -11,7 +11,7 @@ nav:
   pages:
     active: true
   social:
-    active: true
+    active: false
 
 #Featured images in homepage
 featured-img:
