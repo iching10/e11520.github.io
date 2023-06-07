@@ -2,7 +2,8 @@
 ---
 
 pre{
-   overflow-x: visible;
+   overflow-x: auto;
+   overflow-wrap: break-word;
 }
 
 .highlight{
