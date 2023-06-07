@@ -12,7 +12,7 @@ pre{
   padding-right: 10px;
   padding-top: 1px;
   padding-bottom: 1px;
-  overflow-x: auto;
+  overflow-wrap: break-word;
   // System font stack for code
   font-family:
     "SFMono-Regular",
@@ -256,7 +256,7 @@ figure.highlight pre code[data-lang]::before, div.highlight pre code[data-lang]:
   border-top-right-radius: 5px;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
-  min-width: 40px;
+  min-width: 5px;
   text-align: center;
   background-color: #49483e;
 }
