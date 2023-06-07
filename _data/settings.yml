@@ -23,7 +23,7 @@ categories:
 
 #Show date and read time under the post title
 date-under-post:
-  active: true
+  active: false
 
 #Use MathJAX
 mathjax:
