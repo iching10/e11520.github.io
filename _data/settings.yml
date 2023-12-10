@@ -4,7 +4,7 @@ analytics-id: #leave blank to not use Analytics
 #Subtitle
 subtitle:
   active: true
-  text: 日月运行 一寒一暑
+  text: 日月運行 一寒一暑
 
 #Nav 
 nav:
