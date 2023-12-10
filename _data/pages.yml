@@ -1,3 +1,4 @@
 pages:
   - {name: '主页', url: '/'}
   - {name: '关于', url: 'about.html'}
+  - {name: '联系', url: 'contact.html'}
