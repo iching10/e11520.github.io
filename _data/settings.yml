@@ -19,7 +19,7 @@ featured-img:
 
 #Show categories at the end of posts
 categories:
-  active: true
+  active: false
 
 #Show date and read time under the post title
 date-under-post:
@@ -31,7 +31,7 @@ mathjax:
 
 #Show related posts based on categories
 related-posts:
-  active: true
+  active: false
   title: "相关文章"
 
 #Comments
