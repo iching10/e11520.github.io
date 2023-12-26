@@ -5,6 +5,7 @@ title: Home
 {% for post in paginator.posts %}
 
 <div class="post">
+    <hr>
     <h2 id = "post-title"><a href="{{ post.url  | relative_url }}">{{ post.title }}</a></h2>
 
     {% if site.data.settings.date-under-post.active %} 
@@ -36,7 +37,6 @@ title: Home
     <p style="clear: left">
         <span class = "continue-reading"><a href="{{ post.url | relative_url }}">阅读文章...</a></span>
     </p>
-    <hr>
 </div>
 {% endfor %}
 
