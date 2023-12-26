@@ -33,6 +33,7 @@ title: Home
             {{ post.content | strip_html | truncatewords:50 }}
         {% endif %}
     </p>
+    ::after
     <p>
         <span class = "continue-reading"><a href="{{ post.url | relative_url }}">阅读文章...</a></span>
     </p> 
