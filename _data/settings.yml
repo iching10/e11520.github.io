@@ -31,7 +31,7 @@ mathjax:
 
 #Show related posts based on categories
 related-posts:
-  active: false
+  active: true
   title: "相关文章"
 
 #Comments

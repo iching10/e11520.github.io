@@ -4,4 +4,4 @@
 
 social:
   - {icon: 'envelope', type: "solid", link: 'mailto:songhx@gmail.com'}
-  - {icon: 'weixin', type: "brand", link: ''}
+  - {icon: 'weixin', type: "brand", link: 'about.html'}
