@@ -18,7 +18,7 @@ title: Home
     {% if site.data.settings.featured-img.active %}
     <div class = "featured-img-container">
     {% if post.image %}
-        <a href="{{ post.url | relative_url }}"><img src="{{ post.image | relative_url }}"/></a>
+        <a href="{{ post.url | relative_url }}"><img src="{{ post.image | relative_url }}" width="500" style="float: left; margin-left: 15px; margin-right: 15px;"/></a>
     {% endif %}
     {% if post.gif %}
         <a href="{{ post.url | relative_url }}">{% include gif.html file = post.gif %}</a>
