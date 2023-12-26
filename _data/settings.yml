@@ -11,7 +11,7 @@ nav:
   pages:
     active: true
   social:
-    active: true
+    active: false
 
 #Featured images in homepage
 featured-img:
@@ -19,7 +19,7 @@ featured-img:
 
 #Show categories at the end of posts
 categories:
-  active: false
+  active: true
 
 #Show date and read time under the post title
 date-under-post:
