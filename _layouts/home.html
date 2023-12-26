@@ -10,9 +10,7 @@ title: Home
     {% if site.data.settings.date-under-post.active %} 
     <div class = "post-info">
         <span>
-            <i class="far fa-calendar" aria-hidden="true"></i>
-            <time datetime="{{ post.date | date_to_xmlschema }}" class="by-line">{{ post.date | date: "%F" }}</time> - <i class="far fa-clock"></i> 
-            
+            <time datetime="{{ post.date | date_to_xmlschema }}" class="by-line">{{ post.date | date: "%F" }}</time></i> 
         </span>
     </div>
     {% endif %}
@@ -36,7 +34,7 @@ title: Home
         {% endif %}
     </p>
     <p>
-        <span class = "continue-reading"><a href="{{ post.url | relative_url }}">阅读内文...</a></span>
+        <span class = "continue-reading"><a href="{{ post.url | relative_url }}">阅读文章...</a></span>
     </p> 
 </div>
 {% endfor %}
