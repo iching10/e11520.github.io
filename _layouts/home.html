@@ -31,11 +31,10 @@ title: Home
             {{post.customexcerpt | strip_html | truncate:50}}
         {% else %}
             {{ post.content | strip_html | truncate:50 }}
-        {% endif %}
-    </p>
-    <p style="clear: left">
+        {% endif %}    
         <span class = "continue-reading"><a href="{{ post.url | relative_url }}">阅读文章...</a></span>
     </p>
+    <p style="clear: left"></p>
 </div>
 {% endfor %}
 
