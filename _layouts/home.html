@@ -28,9 +28,9 @@ title: Home
 
     <p>
         {% if post.customexcerpt %}
-            {{post.customexcerpt | strip_html | truncatewords:50}}
+            {{post.customexcerpt | strip_html | truncate:50}}
         {% else %}
-            {{ post.content | strip_html | truncatewords:50 }}
+            {{ post.content | strip_html | truncate:50 }}
         {% endif %}
     </p>
     <p style="clear: left">
