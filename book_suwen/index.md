@@ -3,6 +3,4 @@ layout: default
 title: about
 ---
 
-日行一周为一年，于是有二十四气
-
-月行
+[返回目录](sw1.html)
