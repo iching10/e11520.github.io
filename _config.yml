@@ -1,10 +1,10 @@
 # Site settings
-title: 宋意读星
+title: 意星
 description: "日月運行 一寒一暑"
 url:  "https://www.e11520.com" # Actual base url of the website
 baseurl: "/"           # url of the jekyll blog. e.g. if you set url to "mysite.com" and baseurl to "blog", the jekyll website will work on "mysite.com/blog"
 author:
-  name: "宋意读星"
+  name: "意星"
   email: "songhx@gmail.com"
   url: "https://www.e11520.com"
 permalink: /:title:output_ext
