@@ -5,8 +5,18 @@
 </head>
 <body>
 
+
+
   <div class="container">
     {% include header.html %}
+
+    <ul>
+        {% for page in site.pages %}
+            {% if page.url contains "/your-folder/" and page.name ends_with: ".md" %}
+            <li><a href="{{ page.url }}">{{ page.name | replace: ".md", "" }}</a></li>
+            {% endif %}
+        {% endfor %}
+    </ul>
 
     <div class="post-container">
       {{ content }}
