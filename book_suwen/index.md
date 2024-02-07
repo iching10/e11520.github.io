@@ -5,11 +5,10 @@ title: Index
 
 # Index
 
-{% assign md_files = site.static_files | where: "extname", ".md" %}
 <ul>
-{% for file in md_files %}
-  {% if file.path contains "/book_suwen/" %}
-    <li><a href="{{ file.path }}">{{ file.name | replace: ".md", "" }}</a></li>
+{% for page in site.pages %}
+  {% if page.url contains "/your-folder/" and page.name ends_with: ".md" %}
+    <li><a href="{{ page.url }}">{{ page.name | replace: ".md", "" }}</a></li>
   {% endif %}
 {% endfor %}
 </ul>
