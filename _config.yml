@@ -56,3 +56,5 @@ sass:
 collections:
   staff_members:
     output: true
+  suwen:
+    output: true
