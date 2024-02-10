@@ -58,4 +58,4 @@ sass:
 collections:
   suwen:
     output: true
-    permalink: /book_suwen/:path/
+    permalink: /bsuwen/:path/
