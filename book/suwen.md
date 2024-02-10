@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /suwen/
+permalink: /book/suwen/
 title: 素问
 ---
 
