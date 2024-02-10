@@ -1,4 +1,4 @@
 pages:
   - {name: '主页', url: '/'}
-  - {name: '素问', url: '/book/'}
+  - {name: '典籍', url: '/book/'}
   - {name: '关于', url: 'about.html'}
