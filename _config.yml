@@ -53,9 +53,5 @@ sass:
   style: compressed
   sourcemap: never
 
-#Collection
-
 collections:
-  suwen:
-    output: true
-    permalink: /bsuwen/:path/
+  - staff_members
