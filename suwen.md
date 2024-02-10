@@ -1,13 +1,12 @@
 ---
 layout: default
-title: Suwen
+permalink: /suwen/
+title: 素问
 ---
 
-{% for book in site.books %}
-  <h2>
-    <a href="{{ book.url }}">
-      {{ book.title }}
-    </a>
-  </h2>
-  <p>{{ book.content | markdownify }}</p>
-{% endfor %}
+<h2>{{ page.title }}</h2>
+<ul>
+    {% for book in site.books %}
+        <li><a class = "archive-link" href="{{ book.url }}">{{ book.title }}</a></li>
+    {% endfor %}
+</ul>
