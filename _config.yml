@@ -54,4 +54,5 @@ sass:
   sourcemap: never
 
 collections:
-  - staff_members
+  staff_members:
+    output: true
