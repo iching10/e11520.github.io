@@ -53,6 +53,8 @@ sass:
   style: compressed
   sourcemap: never
 
+#Collection
+collections_dir: articles
 collections:
   staff_members:
     output: true
