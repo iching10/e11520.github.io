@@ -56,5 +56,5 @@ sass:
 collections:
   staff_members:
     output: true
-  suwen:
+  books:
     output: true

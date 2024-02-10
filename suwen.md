@@ -3,11 +3,11 @@ layout: default
 title: Suwen
 ---
 
-{% for post in site.suwen %}
+{% for book in site.books %}
   <h2>
-    <a href="{{ suwen.url }}">
-      {{ suwen.title }}
+    <a href="{{ book.url }}">
+      {{ boook.title }}
     </a>
   </h2>
-  <p>{{ suwen.content | markdownify }}</p>
+  <p>{{ book.content | markdownify }}</p>
 {% endfor %}
