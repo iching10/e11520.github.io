@@ -58,4 +58,4 @@ collections_dir: articles
 collections:
   suwen:
     output: true
-    permalink: /book/:path
+    permalink: /book/:collection/:path
