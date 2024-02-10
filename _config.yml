@@ -56,7 +56,6 @@ sass:
 #Collection
 collections_dir: articles
 collections:
-  staff_members:
-    output: true
   suwen:
     output: true
+    permalink: /book/:path
