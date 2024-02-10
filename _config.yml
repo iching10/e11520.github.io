@@ -52,3 +52,10 @@ kramdown:
 sass:
   style: compressed
   sourcemap: never
+
+#Collection
+
+collections:
+  suwen:
+    output: true
+    permalink: /book_suwen/:path/
