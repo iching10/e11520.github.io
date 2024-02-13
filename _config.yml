@@ -58,7 +58,7 @@ collections_dir: articles
 collections:
   yijing:
     output: true
-    permalink: /book/:collection
+    permalink: /book/:collection/:path
   suwen:
     output: true
     permalink: /book/:collection/:path
