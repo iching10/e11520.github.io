@@ -59,6 +59,15 @@ collections:
   yijing:
     output: true
     permalink: /book/:collection/:path
+  lunyu:
+    output: true
+    permalink: /book/:collection/:path
+  mengzi:
+    output: true
+    permalink: /book/:collection/:path
+  liji:
+    output: true
+    permalink: /book/:collection/:path
   suwen:
     output: true
     permalink: /book/:collection/:path
