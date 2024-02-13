@@ -1,18 +1,30 @@
 <!doctype html>
 <html>
-<head>
-  {% include head.html %}
-</head>
+  <head>
+    {% include head.html %}
+  </head>
+
 <body>
 
   <div class="container">
     {% include header.html %}
 
     <div class="post-container">
-      {{ content }}
+      <article id = "post">        
+        <h2 id = "post-title">{{ page.title }}</h2>
+
+        <div class = "post-info">
+          <span>
+              <span><a class="archive-link" href="./">返回目录</a></span>
+          </span>
+        </div>
+
+        {{ content }}
+      </article>
     </div>
   </div>
 
 {%- include footer.html -%}
+
 </body>
 </html>
