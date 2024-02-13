@@ -6,9 +6,9 @@ title: 典籍
 
 # 周易
 
-## [易经](yijing)
-## [系辞上](yijing)
+- [易经](yijing)
+- [系辞上](yijing)
 
 # 黄帝内经
 
-## [素问](suwen)
+- [素问](suwen)
