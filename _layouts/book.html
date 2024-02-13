@@ -11,13 +11,9 @@
 
     <div class="post-container">
       <article id = "post">        
-        <h2 id = "post-title">{{ page.title }}</h2>
-
-        <div class = "post-info">
-          <span>
-              <span><li><a class="archive-link" href="./">返回目录</a></li></span>
-          </span>
-        </div>
+        <a href="./">
+          <h2 id = "post-title">{{ page.title }}</h2>
+        </a>
 
         {{ content }}
       </article>
