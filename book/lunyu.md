@@ -1,6 +1,6 @@
 ---
 layout: collection
-permalink: /book/lunyu/
+permalink: /lunyu/
 title: 论语
 collection: lunyu
 ---
