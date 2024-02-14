@@ -17,7 +17,7 @@
 
         <ol>
             {% for collection in site.collections %}
-                <li><a class = "archive-link" href="{{ collection.collection }}">{{ collection.title }}</a></li>
+                <li><a class = "archive-link" href="{{ collection.label }}">{{ collection.label }}</a></li>
             {% endfor %}
         </ol>
       </article>
