@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+  <head>
+    {% include head.html %}
+  </head>
+
+<body>
+
+  <div class="container">
+    {% include header.html %}
+
+    <div class="post-container">
+      <article id = "post">        
+        <a href="./">
+          <h2 id = "post-title">{{ page.title }}</h2>
+        </a>
+
+        <ul>
+            {% for article in site[page.collection] %}
+                <li><a class = "archive-link" href="{{ article.url }}">{{ article.title }}</a></li>
+            {% endfor %}
+        </ul>
+      </article>
+    </div>
+  </div>
+
+{%- include footer.html -%}
+
+</body>
+</html>
