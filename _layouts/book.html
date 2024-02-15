@@ -18,7 +18,7 @@
         <ol>
             {% for article in site[page.collection] %}
               {% unless article.name == 'index.md' %}
-                <li><a class = "archive-link" href="{{ article.url }}">{{ article.title }}</a></li>
+                <li><a class = "archive-link" href="{{ article.url }}">{{ article.name }} {{ article.title }}</a></li>
               {% endunless %}
             {% endfor %}
         </ol>
