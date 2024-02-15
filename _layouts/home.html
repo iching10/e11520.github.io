@@ -28,9 +28,9 @@ title: 主页
 
     <p>
         {% if post.customexcerpt %}
-            {{post.customexcerpt | strip_html | truncate:50}}
+            {{post.customexcerpt | strip_html | truncate:70}}
         {% else %}
-            {{ post.content | strip_html | truncate:50 }}
+            {{ post.content | strip_html | truncate:70 }}
         {% endif %}    
         <span class = "continue-reading"><a href="{{ post.url | relative_url }}">阅读文章...</a></span>
     </p>
