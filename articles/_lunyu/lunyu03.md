@@ -1,6 +1,7 @@
 ---
 title: 八佾
-layout: book
+book: 论语
+layout: article
 ---
 
 孔子谓季氏：「八佾舞于庭，是可忍也，孰不可忍也？」

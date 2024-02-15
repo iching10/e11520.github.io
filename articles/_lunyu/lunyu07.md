@@ -1,6 +1,7 @@
 ---
 title: 述而
-layout: book
+book: 论语
+layout: article
 ---
 
 子曰：「述而不作，信而好古，窃比于我老彭。」

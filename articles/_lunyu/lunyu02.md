@@ -1,6 +1,7 @@
 ---
 title: 为政
-layout: book
+book: 论语
+layout: article
 ---
 
 子曰：「为政以德，譬如北辰，居其所而众星共之。」

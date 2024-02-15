@@ -1,6 +1,7 @@
 ---
 title: 先进
-layout: book
+book: 论语
+layout: article
 ---
 
 子曰：「先进于礼乐，野人也；后进于礼乐，君子也。如用之，则吾从先进。」

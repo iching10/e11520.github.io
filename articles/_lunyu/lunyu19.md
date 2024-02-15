@@ -1,6 +1,7 @@
 ---
 title: 子张
-layout: book
+book: 论语
+layout: article
 ---
 
 子张曰：「士见危致命，见得思义，祭思敬，丧思哀，其可已矣。」

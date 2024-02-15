@@ -1,6 +1,7 @@
 ---
 title: 里仁
-layout: book
+book: 论语
+layout: article
 ---
 
 子曰：「里仁为美。择不处仁，焉得知？」

@@ -1,6 +1,7 @@
 ---
 title: 子路
-layout: book
+book: 论语
+layout: article
 ---
 
 子路问政。子曰：「先之，劳之。」请益。曰：「无倦。」

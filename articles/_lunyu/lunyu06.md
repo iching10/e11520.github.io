@@ -1,6 +1,7 @@
 ---
 title: 雍也
-layout: book
+book: 论语
+layout: article
 ---
 
 子曰：「雍也可使南面。」

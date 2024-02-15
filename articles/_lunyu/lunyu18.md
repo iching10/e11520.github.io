@@ -1,6 +1,7 @@
 ---
 title: 微子
-layout: book
+book: 论语
+layout: article
 ---
 
 微子去之，箕子为之奴，比干谏而死。孔子曰：「殷有三仁焉。」

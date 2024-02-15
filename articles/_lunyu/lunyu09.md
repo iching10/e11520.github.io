@@ -1,6 +1,7 @@
 ---
 title: 子罕
-layout: book
+book: 论语
+layout: article
 ---
 
 子罕言利，与命，与仁。

@@ -1,6 +1,7 @@
 ---
 title: 卫灵公
-layout: book
+book: 论语
+layout: article
 ---
 
 卫灵公问陈于孔子。孔子对曰：「俎豆之事，则尝闻之矣；军旅之事，未之学也。」明日遂行。

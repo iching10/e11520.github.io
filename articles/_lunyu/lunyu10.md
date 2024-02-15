@@ -1,6 +1,7 @@
 ---
 title: 乡党
-layout: book
+book: 论语
+layout: article
 ---
 
 孔子于乡党，恂恂如也，似不能言者。其在宗庙朝廷，便便言，唯谨尔。

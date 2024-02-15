@@ -1,6 +1,7 @@
 ---
 title: 泰伯
-layout: book
+book: 论语
+layout: article
 ---
 
 子曰：「泰伯，其可谓至德也已矣！三以天下让，民无得而称焉。」

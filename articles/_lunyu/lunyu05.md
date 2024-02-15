@@ -1,6 +1,7 @@
 ---
 title: 公冶长
-layout: book
+book: 论语
+layout: article
 ---
 
 子谓公冶长，「可妻也。虽在缧绁之中，非其罪也」。以其子妻之。
