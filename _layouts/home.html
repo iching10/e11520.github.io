@@ -32,9 +32,9 @@ title: 主页
         {% else %}
             {{ post.content | strip_html | truncate:50 }}
         {% endif %}    
+        <span class = "continue-reading"><a href="{{ post.url | relative_url }}">阅读文章...</a></span>
     </p>
     <p style="clear: left"></p>
-    <span class = "continue-reading"><a href="{{ post.url | relative_url }}">阅读文章...</a></span>
 </div>
 {% endfor %}
 
