@@ -56,13 +56,28 @@ sass:
 #Collection
 collections_dir: articles
 collections:
-  yijing:
+  e:  # 易经
     output: true
-  lunyu:
+  shj:  # 山海经
     output: true
-  mengzi:
+  xjbf:  # 协纪辨方书
     output: true
-  liji:
+  xxdc:  # 星学大成
     output: true
-  suwen:
+  ly:  # 论语
     output: true
+  mz:  # 孟子
+    output: true
+  lj:  # 礼记
+    output: true
+  dd:  # 老子
+    output: true
+  nh:  # 庄子
+    output: true
+  qx:  # 列子
+    output: true
+  sw:  # 素问
+    output: true
+  ls:  # 灵枢经
+    output: true
+  
