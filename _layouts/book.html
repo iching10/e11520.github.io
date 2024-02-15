@@ -15,7 +15,11 @@
           <h2 id = "post-title">{{ page.title }}</h2>
         </a>
 
-        {{ content }}
+        <ol>
+            {% for article in site[page.collection] %}
+                <li><a class = "archive-link" href="{{ article.url }}">{{ article.title }}</a></li>
+            {% endfor %}
+        </ol>
       </article>
     </div>
   </div>
