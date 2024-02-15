@@ -1,12 +1,5 @@
 ---
-layout: default
-permalink: /book/mengzi/
+layout: book
 title: 孟子
+collection: mengzi
 ---
-
-<h2>{{ page.title }}</h2>
-<ul>
-    {% for article in site.mengzi %}
-        <li><a class = "archive-link" href="{{ article.url }}">{{ article.title }}</a></li>
-    {% endfor %}
-</ul>

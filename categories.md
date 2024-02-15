@@ -1,7 +1,7 @@
 ---
 layout: categories
 permalink: /categories/
-title: Categories
+title: 分类
 ---
 
 

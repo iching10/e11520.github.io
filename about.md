@@ -1,6 +1,6 @@
 ---
 layout: default
-title: about
+title: 关于
 ---
 
 日行一周为一年，于是有二十四气
