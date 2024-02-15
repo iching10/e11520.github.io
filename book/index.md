@@ -1,6 +1,5 @@
 ---
 layout: default
-permalink: /book/
 title: 典籍
 ---
 
