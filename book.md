@@ -3,33 +3,14 @@ layout: default
 title: 典籍
 ---
 
-### 经
+[易经](e)    [山海经](shj)
 
-- [易经](yijing)
-- [山海经](shanhaijing)
+[协纪辨方书](xjbf)    [星学大成](xxdc)
 
-### 术
+[黄帝内经 - 素问](sw)    [黄帝内经 - 灵枢经](ls)
 
-- [协纪辨方书](xiejibianfangshu)
-- [星学大成](xingxuedacheng)
+[老子 - 道德经](dd)    [庄子 - 南华经](nh)    [列子 - 冲虚经](cx)
 
-### 医
+[论语](ly)    [孟子](mz)    [礼记](lj)
 
-- [黄帝内经 - 素问](suwen)
-- [黄帝内经 - 灵枢经](lingshujing)
-
-### 道
-
-- [老子 - 道德经](laozi)
-- [庄子 - 南华经](zhuangzi)
-- [列子 - 冲虚经](liezi)
-
-### 儒
-
-- [论语](lunyu)
-- [孟子](mengzi)
-- [礼记](liji)
-
-### 释
-
-- [金刚经](jingangjing)
+金刚经
