@@ -46,11 +46,11 @@ html{
 //End Alerts
 
 //Blockquote
-blockquote {
-  border-top: .25em solid #dfe2e5;
+blockquote p{
   border-left: .25em solid #dfe2e5;
   background-color: #EEEEEE;
   color: #6a737d;
+  font-size: 1.0rem;
   padding: 0 1em;
   cite{
     display: inline-block;
