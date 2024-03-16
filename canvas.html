@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rough.js Image Rendering</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rough/3.0.4/rough.min.js"></script>
+</head>
+<body>
+    <canvas id="canvas" width="400" height="400"></canvas>
+
+    <script>
+        // Get the canvas element
+        var canvas = document.getElementById('canvas');
+        var context = canvas.getContext('2d');
+
+        // Create a Rough.js generator
+        var rc = rough.canvas(canvas);
+
+        // Draw a rectangle with Rough.js
+        rc.rectangle(10, 10, 380, 380, {
+            fill: 'red'
+        });
+
+        // Draw a circle with Rough.js
+        rc.circle(200, 200, 100, {
+            fill: 'blue'
+        });
+
+        // Draw a line with Rough.js
+        rc.line(100, 100, 300, 300, {
+            stroke: 'green'
+        });
+    </script>
+</body>
+</html>
